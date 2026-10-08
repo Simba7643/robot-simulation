@@ -1,19 +1,4 @@
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include <winsock2.h>
-#include <windows.h>
 
-#pragma comment(lib, "ws2_32.lib")
-
-#define UPPER_DURATION_MS 5000.0
-#define LOWER_DELAY_MS    2000.0
-#define LOWER_DURATION_MS 5000.0
-#define TOTAL_DURATION_MS 7000.0
-
-#define TICK_MS 10
-
-int main()
 {
     WSADATA wsa;
     SOCKET sock;
