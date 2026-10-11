@@ -149,13 +149,4 @@ while True:
                 (UPPER_LENGTH / 2)
             )
 
-        except ValueError:
-
-            print(
-                "Invalid message:",
-                message
-            )
-
-
-while True:
-    rate(30)
+       
