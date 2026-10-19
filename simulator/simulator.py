@@ -1,4 +1,17 @@
+from vpython import *
+import socket
 
+
+scene.title = "Robot Arm - TaiJi Motion"
+scene.width = 1000
+scene.height = 700
+scene.center = vector(1.5, 1.5, 0)
+
+
+base = cylinder(
+    pos=vector(0, 0, 0),
+    axis=vector(0, 0.5, 0),
+    radius=0.6
 )
 
 base_pivot = sphere(
